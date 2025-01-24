@@ -1,0 +1,132 @@
+
+# Python and Virtual Environment
+# Ignore Python bytecode files and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Packaging and Build
+# Ignore build files, distributions, and package metadata
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+develop-eggs/
+parts/
+sdist/
+downloads/
+.installed.cfg
+
+# PyInstaller
+# Ignore PyInstaller temporary files
+*.manifest
+*.spec
+
+# Logs and Reports
+# Ignore log and test coverage files
+*.log
+*.coverage
+*.coverage.*
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+pytest_cache/
+
+# Flask
+# Flask-specific files
+instance/
+.webassets-cache
+
+# Django
+# Django-specific files
+local_settings.py
+
+# Sphinx Documentation
+docs/_build/
+
+# Jupyter Notebook
+# Ignore notebook checkpoints
+.ipynb_checkpoints
+
+# Celery
+celerybeat-schedule
+
+# dotenv
+# Environment variables
+.env
+
+# IPython
+profile_default/
+
+# Spyder and Rope
+.spyderproject
+.ropeproject
+
+# IDE and Editor Settings
+# Ignore JetBrains IDEs settings, including PyCharm
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/mongoSettings.xml
+.idea/**/httpRequests
+.idea/httpRequests
+.idea/caches/build_file_checksums.ser
+
+# JetBrains build files
+.idea/artifacts
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+.idea/libraries
+.idea_modules/
+
+# IntelliJ and Android Studio
+# Ignore IntelliJ and Android Studio output directories
+out/
+cmake-build-*/
+*.iws
+
+# Crashlytics and Fabric
+# Ignore crashlytics and fabric build files
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+
+# Gradle Files
+# Ignore Gradle and Maven auto-imported files
+.gradle/
+.idea/**/gradle.xml
+
+# Others
+# Ignore custom or sensitive files
+*.mo
+*.pot
+target/
